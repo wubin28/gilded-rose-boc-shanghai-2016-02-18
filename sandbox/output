@@ -1,4 +1,6 @@
-GildedRose.java:14: error: package item does not exist
-            if(item.name.equals("Sulfuras, Hand of Ragnaros")){
-                   ^
+GildedRose.java:14: error: cannot find symbol
+            if(item[i].name.equals("Sulfuras, Hand of Ragnaros")){
+               ^
+  symbol:   variable item
+  location: class GildedRose
 1 error
