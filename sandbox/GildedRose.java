@@ -8,7 +8,7 @@ class GildedRose {
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
 
-            ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
+            StrategyItem strategyItem = StrategyFactory.create(items[i].name);
             //itemStrategy.handle(items[i]);
 
 
