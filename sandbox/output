@@ -1,48 +1,6 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.E.E.E.E.E.E.E.E.E.E
-Time: 0.02
-There were 10 failures:
-1) Passes_quality_should_increase_by_3_when_sellin_between_0_and_5(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Passes_quality_should_increase_by_3_when_sellin_between_0_and_5(GildedRoseTest.java:121)
-2) Sulfuras_quality_should_always_80_when_sellin_greater_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Sulfuras_quality_should_always_80_when_sellin_greater_than_0(GildedRoseTest.java:61)
-3) Passes_quality_should_increase_by_1_when_sellin_greater_than_10(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Passes_quality_should_increase_by_1_when_sellin_greater_than_10(GildedRoseTest.java:97)
-4) Aged_Brie_quality_should_increase_by_1_if_sellin_greater_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Aged_Brie_quality_should_increase_by_1_if_sellin_greater_than_0(GildedRoseTest.java:38)
-5) Passes_quality_should_equal_0_when_sellin_no_more_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Passes_quality_should_equal_0_when_sellin_no_more_than_0(GildedRoseTest.java:85)
-6) Sulfuras_quality_should_always_80_when_sellin_no_more_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Sulfuras_quality_should_always_80_when_sellin_no_more_than_0(GildedRoseTest.java:73)
-7) Aged_Brie_quality_should_increase_by_2_if_sellin_no_more_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Aged_Brie_quality_should_increase_by_2_if_sellin_no_more_than_0(GildedRoseTest.java:49)
-8) Passes_quality_should_increase_by_2_when_sellin_between_5_and_10(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.Passes_quality_should_increase_by_2_when_sellin_between_5_and_10(GildedRoseTest.java:109)
-9) normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0(GildedRoseTest.java:25)
-10) normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0(GildedRoseTest)
-java.lang.NullPointerException
-	at GildedRose.updateQuality(GildedRose.java:12)
-	at GildedRoseTest.normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0(GildedRoseTest.java:13)
-
-FAILURES!!!
-Tests run: 10,  Failures: 10
-
+StrategyFactory.java:3: error: cannot find symbol
+        return new SulfurasStrategy();
+                   ^
+  symbol:   class SulfurasStrategy
+  location: class StrategyFactory
+1 error
