@@ -1,6 +1,10 @@
 public class StrategyNormalItem implements StrategyItem{
 
     public void handle(Item item){
+        calculateQualityBeforeDecreasingSellIn();
+        decreaseSellIn();
+        calculateQualityAfterDecreasingSellIn();
+
         if (item.quality > 0) {                    
             item.quality -= 1;
         }
