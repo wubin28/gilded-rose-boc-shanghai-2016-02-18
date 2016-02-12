@@ -1,11 +1,6 @@
-StrategyFactory.java:12: error: cannot find symbol
-           return new StrategyBackstage();  
-                      ^
-  symbol:   class StrategyBackstage
-  location: class StrategyFactory
 StrategyFactory.java:15: error: cannot find symbol
         return new StrategyNormalItem();  
                    ^
   symbol:   class StrategyNormalItem
   location: class StrategyFactory
-2 errors
+1 error
