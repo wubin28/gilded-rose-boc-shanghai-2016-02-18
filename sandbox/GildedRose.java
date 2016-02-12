@@ -8,6 +8,8 @@ class GildedRose {
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
 
+            itemStrategy.handle(items[i]);
+
             if(items[i].name.equals("Sulfuras, Hand of Ragnaros")){
                 continue;
             }
