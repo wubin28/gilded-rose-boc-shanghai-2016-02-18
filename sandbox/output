@@ -1,4 +1,16 @@
-StrategyFactory.java:5: error: missing return statement
-    }
-    ^
-1 error
+StrategyFactory.java:8: error: cannot find symbol
+           return new AgedBrieStrategy();  
+                      ^
+  symbol:   class AgedBrieStrategy
+  location: class StrategyFactory
+StrategyFactory.java:12: error: cannot find symbol
+           return new BackstageStrategy();  
+                      ^
+  symbol:   class BackstageStrategy
+  location: class StrategyFactory
+StrategyFactory.java:15: error: cannot find symbol
+        return new NormalItemStrategy();  
+                   ^
+  symbol:   class NormalItemStrategy
+  location: class StrategyFactory
+3 errors
