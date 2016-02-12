@@ -1,6 +1,6 @@
-StrategyFactory.java:16: error: cannot find symbol
-           return new StrategyConjured();  
-                      ^
-  symbol:   class StrategyConjured
-  location: class StrategyFactory
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...........
+Time: 0.018
+
+OK (11 tests)
+
