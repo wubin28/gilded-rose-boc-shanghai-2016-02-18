@@ -1,6 +1,31 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-............
-Time: 0.017
-
-OK (12 tests)
-
+StrategyNormalItem.java:10: error: cannot find symbol
+        if (item.quality > 0) {                    
+            ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+StrategyNormalItem.java:11: error: cannot find symbol
+            item.quality -= 1;
+            ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+StrategyNormalItem.java:16: error: cannot find symbol
+        item.sellIn -= 1;            
+        ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+StrategyNormalItem.java:20: error: cannot find symbol
+        if (item.sellIn < 0) {
+            ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+StrategyNormalItem.java:22: error: cannot find symbol
+            if (item.quality > 0) {  
+                ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+StrategyNormalItem.java:23: error: cannot find symbol
+                item.quality -= 1;                           
+                ^
+  symbol:   variable item
+  location: class StrategyNormalItem
+6 errors
