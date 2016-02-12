@@ -125,4 +125,21 @@ public class GildedRoseTest {
         assertEquals(25, app.items[0].quality);
     }
 
+@Test
+    public void Conjured_quality_should_decrease_by_2_when_sellin_greater_than_0() {
+        Item[] items = new Item[] { new Item("Conjured", 5, 22) };
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+
+        assertEquals("Conjured", app.items[0].name);
+        assertEquals(4, app.items[0].sellIn);
+        assertEquals(20, app.items[0].quality);
+    }
+
+
+
+
+
+
 }
