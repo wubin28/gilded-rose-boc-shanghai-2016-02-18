@@ -4,13 +4,6 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 
-    @Test
-    public void foo() {
-        Item[] items = new Item[] { new Item("fixme", 0, 0) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
-    }
 
     @Test
     public void normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0() {
@@ -21,5 +14,17 @@ public class GildedRoseTest {
         assertEquals(7, app.items[0].sellIn);
         assertEquals(9, app.items[0].quality);
     }
+
+    @Test
+    public void normal_item_quality_should_decrease_by_2_if_sellin_less_than_0() {
+        Item[] items = new Item[] { new Item("Normal item", 0, 10) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Normal item", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(8, app.items[0].quality);
+    }
+
+
 
 }
