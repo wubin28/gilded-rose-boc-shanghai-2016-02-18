@@ -11,9 +11,6 @@ class GildedRose {
             ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
             itemStrategy.handle(items[i]);
 
-            if(items[i].name.equals("Sulfuras, Hand of Ragnaros")){
-                continue;
-            }
 
             if(items[i].name.equals("Aged Brie")){
                 if (items[i].quality < 50) {
