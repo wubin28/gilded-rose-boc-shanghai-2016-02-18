@@ -1,11 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.E
-Time: 0.012
-There was 1 failure:
-1) foo(GildedRoseTest)
-org.junit.ComparisonFailure: expected:<f[ixme]> but was:<f[oo]>
-	at GildedRoseTest.foo(GildedRoseTest.java:12)
+.
+Time: 0.007
 
-FAILURES!!!
-Tests run: 1,  Failures: 1
+OK (1 test)
 
