@@ -1,6 +1,6 @@
 GildedRose.java:11: error: cannot find symbol
             ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
-                                        ^
-  symbol:   variable StrategyFactory
-  location: class GildedRose
+                                                       ^
+  symbol:   method create(String)
+  location: class StrategyFactory
 1 error
