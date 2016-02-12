@@ -1,11 +1,11 @@
 GildedRose.java:11: error: cannot find symbol
             ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
-            ^
-  symbol:   class ItemStrategy
-  location: class GildedRose
-GildedRose.java:11: error: cannot find symbol
-            ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
                                         ^
   symbol:   variable StrategyFactory
   location: class GildedRose
+GildedRose.java:12: error: cannot find symbol
+            itemStrategy.handle(items[i]);
+                        ^
+  symbol:   method handle(Item)
+  location: variable itemStrategy of type ItemStrategy
 2 errors
