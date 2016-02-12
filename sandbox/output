@@ -1,8 +1,3 @@
-StrategyNormalItem.java:4: error: cannot find symbol
-        calculateQualityBeforeDecreasingSellIn();
-        ^
-  symbol:   method calculateQualityBeforeDecreasingSellIn()
-  location: class StrategyNormalItem
 StrategyNormalItem.java:5: error: cannot find symbol
         decreaseSellIn();
         ^
@@ -13,4 +8,4 @@ StrategyNormalItem.java:6: error: cannot find symbol
         ^
   symbol:   method calculateQualityAfterDecreasingSellIn()
   location: class StrategyNormalItem
-3 errors
+2 errors
