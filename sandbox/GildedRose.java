@@ -9,7 +9,7 @@ class GildedRose {
         for (int i = 0; i < items.length; i++) {
 
             StrategyItem strategyItem = StrategyFactory.create(items[i].name);
-            //itemStrategy.handle(items[i]);
+            //strategyItem.handle(items[i]);
 
 
             if(items[i].name.equals("Aged Brie")){
