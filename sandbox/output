@@ -1,15 +1,8 @@
-StrategySulfuras.java:1: error: cannot find symbol
-public class StrategySulfuras implements ItemStrategy{
-                                         ^
-  symbol: class ItemStrategy
 GildedRose.java:11: error: cannot find symbol
             ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
             ^
   symbol:   class ItemStrategy
   location: class GildedRose
-StrategyFactory.java:4: error: incompatible types: StrategySulfuras cannot be converted to StrategyItem
-           return new StrategySulfuras();  
-                  ^
 StrategyFactory.java:12: error: cannot find symbol
            return new StrategyBackstage();  
                       ^
@@ -20,4 +13,4 @@ StrategyFactory.java:15: error: cannot find symbol
                    ^
   symbol:   class StrategyNormalItem
   location: class StrategyFactory
-5 errors
+3 errors
