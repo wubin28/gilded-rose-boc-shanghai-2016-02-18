@@ -1,7 +1,3 @@
-StrategyAgedBrie.java:1: error: cannot find symbol
-public class StrategyAgedBrie implements ItemStrategy{
-                                         ^
-  symbol: class ItemStrategy
 StrategySulfuras.java:1: error: cannot find symbol
 public class StrategySulfuras implements ItemStrategy{
                                          ^
@@ -14,9 +10,6 @@ GildedRose.java:11: error: cannot find symbol
 StrategyFactory.java:4: error: incompatible types: StrategySulfuras cannot be converted to StrategyItem
            return new StrategySulfuras();  
                   ^
-StrategyFactory.java:8: error: incompatible types: StrategyAgedBrie cannot be converted to StrategyItem
-           return new StrategyAgedBrie();  
-                  ^
 StrategyFactory.java:12: error: cannot find symbol
            return new StrategyBackstage();  
                       ^
@@ -27,4 +20,4 @@ StrategyFactory.java:15: error: cannot find symbol
                    ^
   symbol:   class StrategyNormalItem
   location: class StrategyFactory
-7 errors
+5 errors

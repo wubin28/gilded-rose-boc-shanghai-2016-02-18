@@ -1,4 +1,4 @@
-public class StrategyAgedBrie implements ItemStrategy{
+public class StrategyAgedBrie implements StrategyItem{
 
     public void handle(Item item){
         if(item.name.equals("Aged Brie")){
