@@ -21,4 +21,7 @@ public class StrategyNormalItem implements StrategyItem{
 
     protected void calculateQualityBeforeDecreasingSellIn() {
     }
+
+    protected void decreaseSellIn() {
+    }
 }
