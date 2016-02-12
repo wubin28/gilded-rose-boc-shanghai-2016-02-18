@@ -1,16 +1,30 @@
-StrategyFactory.java:8: error: cannot find symbol
-           return new AgedBrieStrategy();  
-                      ^
-  symbol:   class AgedBrieStrategy
-  location: class StrategyFactory
+StrategyAgedBrie.java:1: error: cannot find symbol
+public class StrategyAgedBrie implements ItemStrategy{
+                                         ^
+  symbol: class ItemStrategy
+StrategySulfuras.java:1: error: cannot find symbol
+public class StrategySulfuras implements ItemStrategy{
+                                         ^
+  symbol: class ItemStrategy
+GildedRose.java:11: error: cannot find symbol
+            ItemStrategy itemStrategy = StrategyFactory.create(items[i].name);
+            ^
+  symbol:   class ItemStrategy
+  location: class GildedRose
+StrategyFactory.java:4: error: incompatible types: StrategySulfuras cannot be converted to StrategyItem
+           return new StrategySulfuras();  
+                  ^
+StrategyFactory.java:8: error: incompatible types: StrategyAgedBrie cannot be converted to StrategyItem
+           return new StrategyAgedBrie();  
+                  ^
 StrategyFactory.java:12: error: cannot find symbol
-           return new BackstageStrategy();  
+           return new StrategyBackstage();  
                       ^
-  symbol:   class BackstageStrategy
+  symbol:   class StrategyBackstage
   location: class StrategyFactory
 StrategyFactory.java:15: error: cannot find symbol
-        return new NormalItemStrategy();  
+        return new StrategyNormalItem();  
                    ^
-  symbol:   class NormalItemStrategy
+  symbol:   class StrategyNormalItem
   location: class StrategyFactory
-3 errors
+7 errors

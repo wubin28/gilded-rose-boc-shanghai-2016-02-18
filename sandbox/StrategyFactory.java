@@ -1,18 +1,18 @@
 public class StrategyFactory{
-    public static ItemStrategy create(String itemName){
+    public static StrategyItem create(String itemName){
        if(itemName.equals("Sulfuras, Hand of Ragnaros")){
-           return new SulfurasStrategy();  
+           return new StrategySulfuras();  
         }
 
         if(itemName.equals("Aged Brie")){
-           return new AgedBrieStrategy();  
+           return new StrategyAgedBrie();  
         }
 
         if(itemName.equals("Backstage passes to a TAFKAL80ETC concert")){
-           return new BackstageStrategy();  
+           return new StrategyBackstage();  
         }
         
-        return new NormalItemStrategy();  
+        return new StrategyNormalItem();  
         
     }
 }
