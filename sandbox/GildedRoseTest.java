@@ -26,7 +26,7 @@ public class GildedRoseTest {
     }
 
 
-@Test
+    @Test
     public void Aged_Brie_quality_should_increase_by_1_if_sellin_greater_than_0() {
         Item[] items = new Item[] { new Item("Aged Brie", 8, 10) };
         GildedRose app = new GildedRose(items);
@@ -35,6 +35,18 @@ public class GildedRoseTest {
         assertEquals(7, app.items[0].sellIn);
         assertEquals(11, app.items[0].quality);
     }
+    @Test
+    public void Aged_Brie_quality_should_increase_by_2_if_sellin_no_more_than_0() {
+        Item[] items = new Item[] { new Item("Aged Brie", 0, 10) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Aged Brie", app.items[0].name);
+        assertEquals(-1, app.items[0].sellIn);
+        assertEquals(12, app.items[0].quality);
+    }
+
+
+
 
 
 
