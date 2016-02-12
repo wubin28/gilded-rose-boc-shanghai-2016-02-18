@@ -16,7 +16,7 @@ public class GildedRoseTest {
     }
 
     @Test
-    public void normal_item_quality_should_decrease_by_2_if_sellin_less_than_0() {
+    public void normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0() {
         Item[] items = new Item[] { new Item("Normal item", 0, 10) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
