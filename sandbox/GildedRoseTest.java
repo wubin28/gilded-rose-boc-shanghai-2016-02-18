@@ -77,6 +77,17 @@ public class GildedRoseTest {
         assertEquals(80, app.items[0].quality);
     }
 
+    @Test
+    public void Passes_quality_should_equal_0_when_sellin_no_more_than_0() {
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", -3, 30) };
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+
+        assertEquals("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
+        assertEquals(-4, app.items[0].sellIn);
+        assertEquals(0, app.items[0].quality);
+    }
 
 
 
