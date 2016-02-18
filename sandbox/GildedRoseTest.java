@@ -22,6 +22,8 @@ public class GildedRoseTest {
   
         List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
 
+        items.stream().forEach(i -> System.out.println(i));
+
         assertEquals(1, 1);
     }
     @Test
