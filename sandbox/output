@@ -1,6 +1,6 @@
-GildedRoseTest.java:25: error: cannot find symbol
-        assertEquals("Normal item", app.items[0].name);
-                                    ^
-  symbol:   variable app
-  location: class GildedRoseTest
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.............
+Time: 0.023
+
+OK (13 tests)
+

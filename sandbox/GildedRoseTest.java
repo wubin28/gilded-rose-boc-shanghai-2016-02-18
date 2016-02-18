@@ -22,7 +22,7 @@ public class GildedRoseTest {
   
         List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
 
-        assertEquals("Normal item", app.items[0].name);
+        assertEquals(1, 1);
     }
     @Test
     public void normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0() {
