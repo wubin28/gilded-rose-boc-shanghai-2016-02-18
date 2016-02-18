@@ -20,11 +20,13 @@ public class GildedRoseTest {
     @Test
     public void normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0_using_functional_programming() {
   
-        List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
+        List<Item> items = Arrays.asList(
+            new Item("Normal item", 8, 10)
+            new Item("Aged Brie", 2, 5)
+        );
 
         items.stream().forEach(i -> System.out.println(i));
 
-        assertEquals(1, 1);
     }
     @Test
     public void normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0() {

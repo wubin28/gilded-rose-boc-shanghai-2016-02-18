@@ -1,7 +1,7 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-..Normal item, 8, 10
-...........
-Time: 0.111
-
-OK (13 tests)
-
+GildedRoseTest.java:24: error: ')' expected
+            new Item("Normal item", 8, 10)
+                                          ^
+GildedRoseTest.java:25: error: ';' expected
+            new Item("Aged Brie", 2, 5)
+                                       ^
+2 errors
