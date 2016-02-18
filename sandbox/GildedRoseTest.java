@@ -21,7 +21,7 @@ public class GildedRoseTest {
     public void normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0_using_functional_programming() {
   
         List<Item> items = Arrays.asList(
-            new Item("Normal item", 8, 10)
+            new Item("Normal item", 8, 10),
             new Item("Aged Brie", 2, 5)
         );
 
