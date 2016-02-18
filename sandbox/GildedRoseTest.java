@@ -4,7 +4,6 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 
-
     @Test
     public void normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0() {
         Item[] items = new Item[] { new Item("Normal item", 8, 10) };
@@ -17,6 +16,13 @@ public class GildedRoseTest {
         assertEquals(9, app.items[0].quality);
     }
 
+    @Test
+    public void normal_item_quality_should_decrease_by_1_if_sellin_greater_than_0_using_functional_programming() {
+  
+        List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
+
+        assertEquals("Normal item", app.items[0].name);
+    }
     @Test
     public void normal_item_quality_should_decrease_by_2_if_sellin_no_more_than_0() {
         Item[] items = new Item[] { new Item("Normal item", 0, 10) };
