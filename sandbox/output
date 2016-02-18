@@ -1,16 +1,6 @@
-GildedRoseTest.java:22: error: cannot find symbol
-        List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
-        ^
-  symbol:   class List
-  location: class GildedRoseTest
-GildedRoseTest.java:22: error: cannot find symbol
-        List<Item> items = Arrays.asList(new Item("Normal item", 8, 10));
-                           ^
-  symbol:   variable Arrays
-  location: class GildedRoseTest
-GildedRoseTest.java:24: error: cannot find symbol
+GildedRoseTest.java:25: error: cannot find symbol
         assertEquals("Normal item", app.items[0].name);
                                     ^
   symbol:   variable app
   location: class GildedRoseTest
-3 errors
+1 error
